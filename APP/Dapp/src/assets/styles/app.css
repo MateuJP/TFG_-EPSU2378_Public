@@ -1,0 +1,38 @@
+body{
+    background-color: #F0F3F4;
+}
+.section-start{
+    margin-top: 3.5rem;
+}
+.nav_start {
+    background-color: #25A76C;
+}
+.link_nav_principal{
+    font-weight: bold;
+}
+.wallet-item {
+    display: flex;
+    align-items: center;
+    margin-left: 30px; /* Adjust the space as needed */
+}
+
+.wallet-link {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    color: white;
+}
+
+.wallet-icon {
+    margin-right: 8px; /* Creates space between the icon and the address */
+    margin-top: -2px;
+}
+
+.wallet-address {
+    max-width: 130px; /* Adjust the width as needed */
+    margin-right: 15px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: middle;
+}
